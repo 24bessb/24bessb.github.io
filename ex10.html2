@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <style>
+    *{font-family: serif;
+      color: white;
+    }
+ 
+     body {
+       padding: 10px 20px 10px 20px;
+    }
+      
+     p { 
+        margin: 1px;
+     }
+    
+   .mdm {
+     background-color: rgba(0, 0, 330, 0.4);
+     max-width: 1000px;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     
+     background: #1e5799; /* Old browsers */
+
+     background: -moz-linear-gradient(top, #1e5799 0%, #207cca 0%, #2535ea 0%, #3d6dba 25%, #4e83d8 50%, #c5d7e5 100%); /* FF3.6+ */
+
+     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(0%,#207cca), color-stop(0%,#2535ea), color-stop(25%,#3d6dba), color-stop(50%,#4e83d8), color-stop(100%,#c5d7e5)); /* Chrome,Safari4+ */
+
+     background: -webkit-linear-gradient(top, #1e5799 0%,#207cca 0%,#2535ea 0%,#3d6dba 25%,#4e83d8 50%,#c5d7e5 100%); /* Chrome10+,Safari5.1+ */
+
+     background: -o-linear-gradient(top, #1e5799 0%,#207cca 0%,#2535ea 0%,#3d6dba 25%,#4e83d8 50%,#c5d7e5 100%); /* Opera 11.10+ */
+
+     background: -ms-linear-gradient(top, #1e5799 0%,#207cca 0%,#2535ea 0%,#3d6dba 25%,#4e83d8 50%,#c5d7e5 100%); /* IE10+ */
+
+     background: linear-gradient(to bottom, #1e5799 0%,#207cca 0%,#2535ea 0%,#3d6dba 25%,#4e83d8 50%,#c5d7e5 100%); /* W3C */
+
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#c5d7e5',GradientType=0 ); /* IE6-9 */
+   }
+    
+   .m {
+     padding: 30px 20px 30px 20px;
+   }
+   
+   h1 {
+     margin: 10px 0px 30px 0px;
+     
+   }
+   
+    .little {
+      font-size: 15px;
+    }
+    
+    .mer {
+      font-size: 35px;
+    }
+    
+    .img {
+      width: 400px;
+      height: 300%;
+      margin-bottom: 10px;
+    }
+    
+    .left1, .left2, .first1, .first2, .right {
+      display: inline-block;
+    }
+    
+    .left1 {
+      font-size: 5px;
+      padding: 0px 0px 0px 0px;
+    }
+    
+    .left2 {
+      font-size: 5px;
+      padding: 0px 0px 0px 0px;
+    }
+    
+    .first1 {
+      font-size: 5px;
+      padding: 0px 0px 0px 0px;
+    }
+    
+    .first2 {
+      font-size: 3px;
+      padding: 0px 0px 0px 0px;
+    }
+    
+    .right { 
+      font-size: 3px;
+      padding: 0px 0px 20px 0px;
+      float: right;
+    }
+  </style>
+</head>
+  
+<body>
+  <div class = "mdm">
+    <div class = "m">
+     <p>
+       <br>Somewhere
+       <br>under the sea
+       <br>and beyond your
+       <br>imagination
+       <br>is an adventure
+       <br>in fantasy.
+     </p>
+    </div>
+  <h1>
+    <br>
+       <span class= "little"> THE LITTLE
+       </span>
+    <br>
+      <span class = "mer"> MERMAID
+       </span>
+  </h1>
+    
+     <img class="인어공주" src="https://dl.dropboxusercontent.com/u/8906188/kaywon/KakaoTalk_20141102_154328753.jpg" alt="인어공주">
+  
+  <div class = "gkeks">
+    <p class="left">
+       <span class= "left1">
+       G GENERAL AUDIENCES
+       </span>
+       <span class = "left2">
+        All Ages Admitted
+       </span> 
+    </p>
+    <p class = "first">
+       <span class= "first1">
+        Distribute by BUENA VISTA PICTURES DISTRIBUTION, INC.
+       </span>
+       <span class = "first2">
+        soundtrack available on cassette and compact disc from Wart Disney Records
+       </span> 
+    </p>
+    <p class="right"> ⓒThe Wart Disney Company
+    </p>
+  </div>
+  
+  </div>
+</body>
+</html>
